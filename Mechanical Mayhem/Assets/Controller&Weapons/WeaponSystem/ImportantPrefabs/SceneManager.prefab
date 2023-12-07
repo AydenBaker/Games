@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7035514130321238200
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7035514130321238182}
+  - component: {fileID: 7035514130321238201}
+  - component: {fileID: 7035514130321238180}
+  m_Layer: 2
+  m_Name: SceneManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7035514130321238182
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7035514130321238200}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7035514130321238201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7035514130321238200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da02cce7be4750c418f7e837f586d166, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  createInputs: 1
+--- !u!114 &7035514130321238180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7035514130321238200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cdcd08bfea99914aba17ecb7902ead0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultTag: Default
+  surfaces:
+  - surfaceTag: Default
+    effect:
+      typeOfEffect: 1
+      particleSystem: {fileID: 4846648185341834744, guid: 606c9b1005cbc7547830c9ee9890cbe1, type: 3}
+      isLooping: 0
+  - surfaceTag: Wood
+    effect:
+      typeOfEffect: 1
+      particleSystem: {fileID: 2673261298394688287, guid: bdefceadfdb4c54458cbe8cbd3edbbc3, type: 3}
+      isLooping: 0
+  - surfaceTag: Enemy
+    effect:
+      typeOfEffect: 1
+      particleSystem: {fileID: 4085380977223992484, guid: 9ecec2effed3c6f419ea3124b17c0252, type: 3}
+      isLooping: 0
+  toBeContinued: WorkInProgress
